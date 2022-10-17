@@ -334,4 +334,5 @@ img {
     font-size: var(--text-sm);
     color: var(--accent);
     display: flex;
+    text-align: center;
 }
