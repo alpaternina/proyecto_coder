@@ -1,0 +1,29 @@
+
+/*FABRICANTES*/
+
+.container-div{
+    display: flex;
+    flex-wrap: wrap;
+
+
+        #fabricantes1{
+            flex: 1 1 70%;
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+            padding: 2rem;
+
+                .imgsize{
+                    max-width: 150px;
+                }
+        }
+
+        #fabricantes2{
+            flex: 1 1 30%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 8rem;
+            padding: 0rem;
+            gap: 6rem;
+        }
+}

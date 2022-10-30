@@ -1,0 +1,30 @@
+
+/*MODELOS API*/
+
+#modelosapi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+    .modelosapitext, .modelosapiimg{
+        flex: 1 1 50%;
+
+
+        .modelosapitext{
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+        }
+                .modapi{
+                    margin-bottom: 5rem;
+                }
+
+        .modelosapiimg{
+            display: flex;
+            flex-direction: column;
+            gap: 5rem;
+            padding: 4rem;
+        }
+    }
+

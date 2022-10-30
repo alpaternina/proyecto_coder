@@ -1,0 +1,30 @@
+
+
+/*NORMALIZE*/
+
+*{
+    margin:0;
+    padding: 0 rem;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: $text-sm;
+    color: $primary;
+}
+
+a{
+    font-size: $text-xs;
+    text-decoration: none;
+    color: $accent;
+}
+
+.container {
+    max-width: 1200px;
+    margin:0 auto;
+}

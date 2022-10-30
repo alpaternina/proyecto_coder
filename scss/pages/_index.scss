@@ -1,0 +1,57 @@
+.banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+@media screen and (max-width: 576px) {
+    a{
+        font-size: $text-xx ;
+    }
+    h1{
+        font-size: $text-xs;
+    }
+    h2{
+        font-size: $text-xx;
+    }
+    h3{
+        font-size: $text-xx;
+    }
+    p{
+        font-size: $text-xx;
+    }
+    .menu_item{
+        font-size: $text-xx;
+    }
+ 
+    .piedepa2{
+        font-size: $text-xs;
+    }
+    .hist-1{
+        font-size: $text-xx;
+    }
+    .hist-2{
+        font-size: $text-xx;
+    }
+    .gapl-4{
+        font-size: $text-xx;
+    }
+    @keyframes danzar {
+        0% {
+            width: 30px;
+        }
+        25%{
+            width:70px;
+            transform: translateX(-50px)
+        }
+        50%{
+            width: 30px;
+        }
+        75%{
+            width:30px;
+            transform: translateX(-100px)
+        }
+        100%{
+            width:80px;
+        }
+    }
+}

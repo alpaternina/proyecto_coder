@@ -1,0 +1,45 @@
+/*HEADER*/
+
+header {
+    background-color:$primary;
+
+
+    .navbar{
+        display: flex;
+        align-items: center;
+   
+
+            .navbar_link{
+                display: flex;
+                flex-wrap: wrap;
+                animation: appear 2s 1 linear;
+
+            
+                @keyframes appear{
+                    0%{ 
+                    transform: translate(-500px);
+                      }
+                    100%{
+                    transform: translate(0);
+                        }
+                } 
+            }
+            .menu{
+                display: flex;
+                gap: 1 rem;
+                flex-wrap: wrap;
+
+                .menu_link {
+                    padding: 1.5rem;
+                    font-size: $text-xs;
+                    transition: background 0.8s
+                }
+                .navbar .menu .menu_link:hover {
+                    background-color: #E2231A;
+                
+                }
+            }  
+   }    
+}
+
+

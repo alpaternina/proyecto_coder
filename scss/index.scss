@@ -1,0 +1,20 @@
+/*IMPORTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/*MISC*/
+@import './misc/variables';
+@import './misc/mixins';
+@import './misc/normalize';
+
+/*PARTIALS*/
+@import './partials/footer';
+@import './partials/header';
+
+/*PAGES*/
+@import './pages/historia';
+@import './pages/definicion';
+@import './pages/modelosapi';
+@import './pages/fabricantes';
+@import './pages/aplicaciones';
+@import './pages/index';
