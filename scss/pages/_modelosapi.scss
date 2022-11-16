@@ -2,13 +2,10 @@
 /*MODELOS API*/
 
 #modelosapi{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-}
-    .modelosapitext, .modelosapiimg{
-        flex: 1 1 50%;
+    display: grid;
+    grid-template-columns: repeat (1fr, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    justify-items: center;
 
 
         .modelosapitext{
@@ -21,10 +18,12 @@
                 }
 
         .modelosapiimg{
+            max-width: 100%;
             display: flex;
+            flex-wrap: wrap;
             flex-direction: column;
             gap: 5rem;
             padding: 4rem;
         }
-    }
+    }  
 

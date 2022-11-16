@@ -3,6 +3,10 @@
     flex-direction: row;
     align-items: center;
 }
+.banner1{
+    max-width: 100%;
+}
+
 @media screen and (max-width: 576px) {
     a{
         font-size: $text-xx ;
@@ -11,10 +15,10 @@
         font-size: $text-xs;
     }
     h2{
-        font-size: $text-xx;
+        font-size: $text-xs;
     }
     h3{
-        font-size: $text-xx;
+        font-size: $text-xs;
     }
     p{
         font-size: $text-xx;
@@ -22,12 +26,12 @@
     .menu_item{
         font-size: $text-xx;
     }
- 
+
     .piedepa2{
-        font-size: $text-xs;
+        font-size: $text-xx;
     }
     .hist-1{
-        font-size: $text-xx;
+       font-size: $text-xs;
     }
     .hist-2{
         font-size: $text-xx;
